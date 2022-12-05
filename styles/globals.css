@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        background-image: url('../public/images/bg-pattern-top-desktop.svg'), url('../public/images/bg-pattern-bottom-desktop.svg');
+        background-repeat: no-repeat, no-repeat;
+        background-position: top left, bottom -100vh right;
+        @apply bg-secondaryLightGrayishMagenta;
+    }
+}
